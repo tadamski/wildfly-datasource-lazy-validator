@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module name="org.wildfly.examples.datasources.lazyvalidation" xmlns="urn:jboss:module:1.9">
+
+    <resources>
+        <resource-root path="lazy-validation-module-1.0.0.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="javax.sql.api"/>
+        <module name="sun.jdk"/>
+        <module name="javax.orb.api"/>
+        <module name="java.logging"/>
+        <module name="org.jboss.ironjacamar.jdbcadapters"/>
+    </dependencies>
+</module>
